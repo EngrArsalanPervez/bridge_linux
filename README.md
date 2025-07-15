@@ -1,4 +1,11 @@
 ```bash
+# BridgeName: br0
+# Interface1: enp6s0f0
+# Interface2: enp7s0f3
+
+
+
+
 # Delete
 sudo ip link set br0 down
 sudo brctl delbr br0
